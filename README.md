@@ -23,31 +23,29 @@ For my final project for the Flatiron School's Data Science Bootcamp, I set out 
 ## How it works
 
 #### Setup -> **c = Classy()** 
-Simply create a new instance of Classy to get started -> **c = Classy()**
+Simply create a new instance of the Classy object to get started.
 
 #### Obtaining Data -> **c.obtain()**
 The obtain function detects all the CSV files in the directory and asks you to select one to work with.
 This function also asks you to identify which column you are trying to predict (the target).
 
 #### Exploring Data -> **c.explore()**
-The explore function allows you to explore both the original dataframe and the scrubbed dataframe (if called after .scrub() has been called).
+The explore function allows you to explore both the original dataframe and the scrubbed dataframe (if .explore() is called after .scrub() has been called).
 The explore function has two modes:
     - Simple: which calls .head(), .info(), and .describe() for the chosen dataframe.
     - Advanced: which makes use of the pandas profiling library to provide a more robust exploratory environment.
 
 #### Scrubbing Data -> **c.scrub()**
-The scrub function walks you step by step through the process of cleaning your data.
-The function allows you to take a sample of your data, remove specific values and columns, fix column data types, and properly deal with missing data.
+The scrub function walks you step by step through the process of cleaning your data. This function allows you to take a sample of your data, remove specific values and columns, fix column data types, and properly deal with missing data, among other things.
 
 #### Model Data -> **c.model()**
-The model function first prepares your scrubbed data for modelling by getting dummy variables and allowing you to normalize or standardize your data.
-Then, the function allows you select from multiple classification models (as many as you would like), which it proceeds to run, optimize, analyze and visualize the results for you.
+The model function first prepares your scrubbed data for modelling by getting dummy variables and allowing you to normalize or standardize your data. Then, the function allows you select from multiple classification models (as many as you would like), which it proceeds to run, optimize, analyze and visualize the results for you.
 
 #### Interpret Data -> **c.interpret()**
 The interpret function plots the test accuracy for each model that has previously been run through the .model() function.
 
 #### Interpret Data -> **c.predict()**
-The predict functiona allows you to input new data and view the predicted class for the best performing model (in addition to all previous models). 
+The predict function allows you to input new data and view the predicted class for the best performing model (in addition to the predictions for all previously run models). 
 
 ---
 
