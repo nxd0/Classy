@@ -8,11 +8,11 @@
 ## Abstract
 
 #### About
-Classy is a python package that lets anybody create their own basic machine learning classifier from any dataset in under 10 lines of code.
+Classy is a python package that lets anybody create their own machine learning classifier from any dataset in under 10 lines of code.
 
 #### The Problem
 
-**Machine learning is hard.** Propperly scrubbing, modeling, optimizing, and interpreting results requires a lot of training, tinkering and practice. __What if it could be much simpler?__
+**Machine learning is hard.** Properly scrubbing, modeling, optimizing, and interpreting results requires a lot of training, tinkering and practice. __What if it could be much simpler?__
 
 #### The Solution
 
